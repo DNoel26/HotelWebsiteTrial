@@ -1,0 +1,252 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html
+{
+    font-family: segoe ui;
+    line-height: 1.7rem;
+    color: #ffffff; 
+}
+
+header
+{
+    background-color: #333;
+    width: 100%;
+    padding: 16px 32px 16px 32px;
+    margin: 4px 0 0 0;
+}
+
+.home-active, .about-active, .contact-active
+{
+    color: #f7c08a !important; 
+    background-color: grey !important;
+    padding: 19px 16px 19px 16px;
+}
+
+header > nav > ul > li > a:link, header > nav > ul > li > a:visited
+{
+    color: #ffffff;
+}
+
+header > nav > ul > li > a:hover
+{
+    color: #f7c08a;
+    background-color: grey;
+    padding: 19px 16px 19px 16px;
+}
+
+header > nav > ul > li > a
+{
+  text-decoration: none;
+  margin: 0 16px 0 16px
+}
+
+header > nav
+{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+header li
+{
+    display: inline-block;
+}
+
+header ul
+{
+   justify-self: end;
+   padding: 0 128px 0 0 
+}
+
+/* Home page start */
+
+#home-section-1
+{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    padding: 200px 0 200px 0;
+    background-color: black;
+    background-image: url(../img/background/showcase.jpg);
+    background-position: center;
+}
+
+#about-hotel-button
+{
+    background-color: #333;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #333;
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    margin: 32px 0 0 0;
+    text-decoration: none;
+}
+
+#home-section-1-heading
+{
+    margin: 0 0 48px 0;
+    font-size: 3rem;
+}
+
+.orange-words
+{
+    color: #f7c08a
+}
+
+#home-section-2
+{
+    height: 450px;
+    background-color: #333;
+    text-align: center;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#home-section-2-grid-2
+{
+    padding: 32px 16px 100px 16px;
+}
+
+#read-more-button
+{
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    color: #000000;
+    padding: 10px 10px 10px 10px;
+    margin: 32px 0 0 0;
+    text-decoration: none;
+}
+
+#home-section-3
+{
+    height: 25vh;
+    text-align: center;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #000000; 
+}
+
+.home-section-3-grid-white
+{
+    padding: 32px 32px;
+    background-color: #ffffff;
+}
+
+.home-section-3-grid-orange
+{
+    padding: 32px 32px;
+    background-color: #f7c08a;
+}
+
+footer
+{
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+    padding: 16px 64px 8px 16px;
+    margin: 0 0 4px 0;
+}
+
+/* Home page end, About page start */
+
+#about-section-1
+{
+    width: 100%;
+    height: 400px;
+    text-align: left;
+    padding: 32px 32px 32px 32px;
+    color: #000000;
+    background-color: #ffffff;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-section-1-para
+{
+    padding: 16px 0 16px 0;
+}
+
+.about-section-1-div-img-tag
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding: 16px 0 16px 64px;
+}
+
+#about-section-2
+{
+    width: 100%;
+    height: 550px;
+    padding: 104px 0 64px 0;
+    color: #000000;
+    background-image: url(../img/background/test-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+
+#what-guests-say
+{
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#about-section-2-div-1, #about-section-2-div-2
+{
+    width: 90%;
+    background-color: #f7c08a;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px; 
+ }
+
+.about-section-2-div-img
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f7c08a;
+    border-radius: 50%;
+    padding: 16px 0 8px 16px;
+    margin: auto;
+}
+
+.about-section-2-div-img-tag
+{
+    border-radius: 50%;
+}
+
+.about-section-2-div-para
+{
+    vertical-align: middle;
+    justify-self: left;
+    margin: auto;
+ }
+/* About page end, Contact page start */
+
+#contact-main-section
+{
+    color: #000000;
+    background-color: #ffffff;
+    justify-content: left;
+    width: 100%;
+}
+
